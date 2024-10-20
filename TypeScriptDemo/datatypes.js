@@ -19,3 +19,10 @@ let sum = numList.reduce((acc, num) => acc + num);
 console.log(results);
 console.log(sum);
 let c = 2 /* Color.Blue */;
+let swapNumbers;
+function swapNum(num1, num2) {
+    return [num2, num1];
+}
+swapNumbers = swapNum(10, 20);
+swapNumbers[0];
+let department;
