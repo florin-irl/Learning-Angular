@@ -29,3 +29,4 @@ let concatResult = getItems<number>([1,2,3,4,5]);
 let concatString = getItems<string>(["a","b","c","d","e"]);
 
 
+
