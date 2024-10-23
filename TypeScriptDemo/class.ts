@@ -1,4 +1,6 @@
-class Employee{
+import {Login, User} from './interface';
+
+class Employee implements Login{
     #id: number;
 
     protected name: string;
@@ -17,6 +19,10 @@ class Employee{
 
     static getEmployeeCount(): number{
         return 100;
+    }
+
+    Login(): User{
+        return {name: this.name, id: this.#id, email: ""};
     }
 
 }
